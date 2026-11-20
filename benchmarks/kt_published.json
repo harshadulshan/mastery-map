@@ -1,0 +1,183 @@
+{
+ "source": "Gervet, Koedinger, Schneider & Mitchell (2020). When is deep learning the best approach to knowledge tracing? Journal of Educational Data Mining 12(3), 31-54. AUC in this paper, mean \u00b1 SD over 5 learner-level folds; tables 3 (algebra05), 5 (assistments09), 7 (assistments17), 8 (statics), 10 (spanish), 11 (assistments15).",
+ "url": "https://jedm.educationaldatamining.org/index.php/JEDM/article/view/451",
+ "protocol": "5-fold cross-validation at the learner level; AUC per fold",
+ "datasets": {
+  "assistments09": {
+   "IRT": [
+    0.692,
+    0.006
+   ],
+   "PFA": [
+    0.724,
+    0.005
+   ],
+   "BKT+": [
+    0.759,
+    0.004
+   ],
+   "Best-LR": [
+    0.772,
+    0.004
+   ],
+   "DKT": [
+    0.757,
+    0.004
+   ],
+   "SAKT": [
+    0.756,
+    0.005
+   ]
+  },
+  "assistments15": {
+   "IRT": [
+    0.638,
+    0.006
+   ],
+   "PFA": [
+    0.69,
+    0.005
+   ],
+   "BKT+": [
+    0.701,
+    0.004
+   ],
+   "Best-LR": [
+    0.702,
+    0.004
+   ],
+   "DKT": [
+    0.731,
+    0.005
+   ],
+   "SAKT": [
+    0.73,
+    0.006
+   ]
+  },
+  "assistments17": {
+   "IRT": [
+    0.681,
+    0.003
+   ],
+   "PFA": [
+    0.619,
+    0.005
+   ],
+   "BKT+": [
+    0.71,
+    0.003
+   ],
+   "DAS3H": [
+    0.693,
+    0.003
+   ],
+   "Best-LR": [
+    0.714,
+    0.003
+   ],
+   "Best-FFW": [
+    0.761,
+    0.002
+   ],
+   "DKT": [
+    0.77,
+    0.002
+   ],
+   "SAKT": [
+    0.722,
+    0.003
+   ]
+  },
+  "statics": {
+   "IRT": [
+    0.789,
+    0.006
+   ],
+   "PFA": [
+    0.691,
+    0.007
+   ],
+   "BKT+": [
+    0.811,
+    0.004
+   ],
+   "Best-LR": [
+    0.819,
+    0.005
+   ],
+   "DKT": [
+    0.829,
+    0.004
+   ],
+   "SAKT": [
+    0.813,
+    0.005
+   ]
+  },
+  "algebra05": {
+   "IRT": [
+    0.768,
+    0.007
+   ],
+   "PFA": [
+    0.769,
+    0.006
+   ],
+   "DAS3H": [
+    0.827,
+    0.003
+   ],
+   "Best-LR": [
+    0.831,
+    0.003
+   ],
+   "Best-FFW": [
+    0.829,
+    0.004
+   ],
+   "DKT": [
+    0.821,
+    0.005
+   ],
+   "SAKT": [
+    0.801,
+    0.005
+   ]
+  },
+  "spanish": {
+   "IRT": [
+    0.679,
+    0.005
+   ],
+   "PFA": [
+    0.847,
+    0.003
+   ],
+   "BKT+": [
+    0.851,
+    0.002
+   ],
+   "Best-LR": [
+    0.863,
+    0.002
+   ],
+   "DKT": [
+    0.832,
+    0.004
+   ],
+   "SAKT": [
+    0.831,
+    0.004
+   ]
+  }
+ },
+ "names": {
+  "assistments09": "ASSISTments 2009-10 (middle-school maths)",
+  "assistments15": "ASSISTments 2015 (maths)",
+  "assistments17": "ASSISTments 2017 (maths)",
+  "statics": "Statics 2011 (engineering)",
+  "algebra05": "Algebra I 2005-06 (KDD Cup)",
+  "spanish": "Spanish vocabulary"
+ }
+}
